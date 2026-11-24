@@ -1,0 +1,18 @@
+# Ansible
+*.retry
+*.log
+
+# Secrets
+.env
+*.pem
+*.key
+vault_password_file
+.aws/
+
+# Terraform (if used)
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# OS
+.DS_Store
